@@ -1,0 +1,157 @@
+<!DOCTYPE html>
+<html lang="ru"> 
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+	<title>Центры занятости населения в Москве</title> 
+	<meta name="description" content="" /> 
+	<meta name="keywords" content=""/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=f5b2c135-d598-4f73-a326-daaf0a564f30"></script>
+	<link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" />
+	<link rel="stylesheet" href="css/slick-theme.css" type="text/css" />
+	<link rel="stylesheet" href="template_styles.css" type="text/css" />
+	<script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+	<script src="js/slick.min.js"></script>
+    <script src="js/jquery.nav.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body>
+	<div class="main">
+    	<div class="wr-header">
+            <header>
+                <div class="logo"><a href="/">Центры-занятости.рф</a></div>
+           
+            
+                <div class="menu-top">
+                    <ul>
+                        <li><a href="/">Главная</a></li>
+                        <li><a href="#">Публикации</a></li>
+                        <li><a href="#">Вакансии</a></li>
+                        <li><a href="#">Рубрикатор</a></li>
+                        <li class="link"><a target="_blank" href="#">Бесплатные курсы</a></li>
+                    </ul>
+                </div>
+            </header>
+        </div>
+        
+       
+        <div class="content">
+        	<div class="breadcrumbs">
+            	<ul>
+                    <li><a href="/">Главная</a></li>
+                    <li>Центры занятости населения в Москве</li>
+                </ul>
+            </div>
+            
+            <h1>Центры занятости населения в Москве</h1>
+            
+            <div class="about-center">
+            	<div class="map-center">
+                	<div id="map"></div>
+                </div>
+                
+                <div class="town-filter">
+                	<div class="tit-choice">Выбрать другой город</div>
+                    
+                    <div class="sel-t">
+                    	<select>
+                        	<option>Регион</option>
+                            <option>Регион 2</option>
+                            <option>Регион 3</option>
+                        </select>
+                    </div>
+                    
+                    <div class="sel-t">
+                    	<select>
+                        	<option>Москва</option>
+                            <option>Санкт-Петербург</option>
+                            <option disabled>Астрахань</option>
+                            <option disabled>Самара</option>
+                            <option disabled>Казань</option>
+                        </select>
+                    </div>
+                    
+                    <div class="button"><button type="submit">Выбрать</button></div>
+                </div>
+            </div>
+            
+            <div class="b-org">
+                <div class="list-org">
+                    <div class="item-org">
+                        <div class="img-org"><img src="images_tmp/img-org2.jpg" alt="" /></div>
+                        <div class="desc-org">
+                            <div class="tit-org">Главное отделение</div>
+                            <p>Филиал государственного казенного учреждения Республики Адыгея «Адыгейский республиканский центр занятости населения» в городе Адыгейске</p>
+                            <div class="adress-org">ул. Николоямская, д. 49, стр. 3.</div>
+                            <div class="phone-org"><a href="tel:8877292213">8(8772)9-22-13</a> (горячая линия); <a href="tel:8877292995">8(8772)9-29-95</a> (факс)</div>
+                            <div class="mail-org"><a href="mailto:dtiz-cao-czn@trud.mos.ru">dtiz-cao-czn@trud.mos.ru</a></div>
+                        </div>
+                    </div>
+                    <div class="item-org">
+                        <div class="img-org"><img src="images_tmp/no-photo.jpg" alt="" /></div>
+                        <div class="desc-org">
+                            <div class="tit-org">Отделение Таганское</div>
+                            <p>Филиал государственного казенного учреждения Республики Адыгея «Адыгейский республиканский центр занятости населения» в городе Адыгейске</p>
+                            <div class="adress-org">ул. Покровка, д.41, стр.1</div>
+                            <div class="phone-org"><a href="tel:8877293648">8 (8772)9-36-48</a></div>
+                            <div class="mail-org"><a href="mailto:czn-cao-tagan@social.mos.ru">czn-cao-tagan@social.mos.ru</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="b-news">
+                <div class="title"><span>Публикации</span></div>
+                <div class="list-news">
+                    <div class="item-news">
+                        <div class="img-news"><a href="#"><img src="images_tmp/news1.jpg" alt="" /></a></div>
+                        <div class="desc-news">
+                            <div class="date-n">12 ноября</div>
+                            <div class="tit-news"><a href="#">С 1 октября повысят зарплату: Кого ждёт прибавка и сколько она составит</a></div>
+                            <div class="town-n">Москва</div>
+                            <div class="tag-news"><a href="#">Новость</a></div>
+                        </div>
+                    </div>
+                    
+                    <div class="item-news">
+                        <div class="img-news"><a href="#"><img src="images_tmp/news2.jpg" alt="" /></a></div>
+                        <div class="desc-news">
+                            <div class="date-n">14 ноября</div>
+                            <div class="tit-news"><a href="#">Изменение порядка выплаты пособия по безработице от 7 апреля 2021 года</a></div>
+                            <div class="town-n">Санкт-Петербург</div>
+                            <div class="tag-news tags2"><a href="#">Пресс-релиз</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+        </div>
+	</div><!--main-->
+	
+	<footer>
+		<div class="cont-f">
+			<div class="logo-f"><a href="/">Центры-занятости.рф</a></div>
+            
+            <div class="menu-f">
+            	<ul>
+                	<li><a href="#">Публикации</a></li>
+                	<li><span>Центры занятости по регионам</span></li>
+                </ul>
+            	<ul>
+                	<li><a href="#">О сайте</a></li>
+                	<li><a href="#">Правила сайта</a></li>
+                </ul>
+            	<ul>
+                	<li><a href="#">Бесплатные курсы</a></li>
+                	<li><a href="#">Поиск вакансий</a></li>
+                </ul>
+            </div>
+		</div>
+	</footer>
+</body>
+</html>

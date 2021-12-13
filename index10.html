@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="ru"> 
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=utf-8" /> 
+	<title>Филиал ГКУ Республики Адыгея "АРЦЗН"</title> 
+	<meta name="description" content="" /> 
+	<meta name="keywords" content=""/>
+	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=f5b2c135-d598-4f73-a326-daaf0a564f30"></script>
+	<link rel="stylesheet" href="css/jquery.fancybox.css" type="text/css" />
+	<link rel="stylesheet" href="css/slick-theme.css" type="text/css" />
+	<link rel="stylesheet" href="template_styles.css" type="text/css" />
+	<script src="js/jquery.fancybox.min.js"></script>
+    <script src="js/jquery.nice-select.min.js"></script>
+	<script src="js/slick.min.js"></script>
+    <script src="js/jquery.nav.js"></script>
+	<script src="js/script.js"></script>
+</head>
+<body>
+	<div class="main">
+    	<div class="wr-header">
+            <header>
+                <div class="logo"><a href="/">Центры-занятости.рф</a></div>
+           
+            
+                <div class="menu-top">
+                    <ul>
+                        <li><a href="/">Главная</a></li>
+                        <li><a href="#">Публикации</a></li>
+                        <li><a href="#">Вакансии</a></li>
+                        <li><a href="#">Рубрикатор</a></li>
+                        <li class="link"><a target="_blank" href="#">Бесплатные курсы</a></li>
+                    </ul>
+                </div>
+            </header>
+        </div>
+        
+       
+        <div class="content">
+        	<div class="about-region">
+                <div class="breadcrumbs">
+                    <ul>
+                        <li><a href="/">Главная</a></li>
+                        <li><a href="#">Республика Адыгея</a></li> 
+                        <li><a href="#">Адыгейск</a></li>
+                        <li>Филиал ГКУ Республики Адыгея "АРЦЗН</li>
+                    </ul>
+                </div>
+                
+                <div class="in-about-reg">
+                	<div class="left-about-reg">
+                		<h1>Филиал ГКУ Республики Адыгея "АРЦЗН"</h1>
+                        <p>Филиал государственного казенного учреждения Республики Адыгея «Адыгейский республиканский центр занятости населения» в городе Адыгейске</p>
+                    </div>
+                    
+                    <div class="img-about-reg"><img src="images_tmp/img-org2.jpg" alt="" /></div>
+                </div>
+            </div>
+            
+            <div class="wr-menu-card">
+            	<div class="wr-fix floating">
+                    <div class="menu-card">
+                        <ul id="nav">
+                            <li><a href="#about">Описание</a></li>
+                            <li><a href="#contacts">Контакты</a></li>
+                            <li><a href="#work">Режим работы</a></li>
+                            <li><a href="#faq">Часто задаваемые вопросы</a></li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="about" class="descr-region">
+            	<div class="title"><span>Описание</span></div>
+                <p>Филиал государственного казенного учреждения Республики Адыгея «Адыгейский республиканский центр занятости населения» в городе Адыгейске оказывает услуги населению.</p>
+                <div class="director"><span>Руководитель</span> Хагауджева Зуриет Махмудовна</div>
+            </div>
+            
+            <div id="contacts" class="conacts-region">
+            	<div class="title"><span>Контакты</span></div>
+                
+                <div class="body-contact-reg">
+                	<div class="left-cont-reg">
+                   		<ul>
+                            <li><span>Адрес</span> <span>Адыгейск, просп. Ленина, 12 а</span></li>
+                            <li><span>Индекс</span> <span>385200</span></li>
+                            <li><span>Телефон</span> <span><a href="tel:8877292213">8(8772)9-22-13</a> (горячая линия); <a href="tel:8877292995">8(8772)9-29-95</a> (факс)</span></li>
+                            <li><span>Почта</span> <span><a href="mailto:adgczn@mail.ru">adgczn@mail.ru</a></span></li>
+                            <li><span>Сайт</span> <span><a target="_blank" href="http://zanad.ru/">http://zanad.ru/</a></span></li>
+                            <li><span>Округ</span> <span>Кировский</span></li>
+                            <li><span>Регион</span> <span>Республика Адыгея</span></li>
+                            <li><span>Город</span> <span>Адыгейск</span></li>
+                            <li><span>Район</span> <span>Центральный</span></li>
+                            <li><span>Метро</span> <span>Ленина</span></li>
+                        </ul> 
+                    </div>
+                    
+                    <div class="right-ont-reg">
+                    	<div id="map"></div>
+                    </div>
+                </div>
+            </div>
+            
+            <div id="work" class="b-work">
+            	<div class="title"><span>Режим работы</span></div>
+                <p>Понедельник, вторник, среда, четверг, пятница: 09:00 - 17:00;<br>
+				суббота, воскресенье: выходной</p>
+                
+                <div class="last-edit">
+                	<div class="date-edit">Последние изменения: 26.11.2021</div>
+                    
+                    <div class="link-error"><a href="#">Сообщить об ошибке</a></div>
+                </div>
+            </div>
+            
+            <div class="b-coms">
+            	<div class="title"><span>Отзывы</span></div>
+                
+                <div class="form-coms">
+                	<form>
+                    	<div class="fields">
+                        	<div class="field"><input type="text" placeholder="Имя" /></div>
+                            <div class="field"><input type="text" placeholder="Email" /></div>
+                            <div class="sel-t">
+                            	<select>
+                                	<option>Впечатления</option>
+                                    <option>Отлично</option>
+                                    <option>Плохо</option>
+                                </select>
+                            </div>
+                        </div>
+                        <div class="field"><textarea placeholder="Текст отзыва"></textarea></div>
+                        <div class="button"><button type="submit">Отправить</button></div>
+                    </form>
+                </div>
+                
+                <div class="list-coms">
+                	<div class="item-coms">
+                    	<div class="name-coms">Ольга</div>
+                        <p>13 января была на перерегистрации на бирже труда . Сегодня 18 января никаких выплат не было. Помогите разобраться.</p>
+                        <div class="func-coms">
+                        	<div class="exl dis"></div>
+                            <div class="date-coms">20 января 2021</div>
+                        </div>
+                    </div>
+                    
+                	<div class="item-coms">
+                    	<div class="name-coms">Субботина Елена</div>
+                        <p>Недавно посетила центр занятости и заметила как там все изменилось за последние годы. Вежливые сотрудники, нет очередей, много разной информации для безработных. Помнится, несколько лет назад, там было невозможно пройти из -за большого скопления народа...</p>
+                        <div class="func-coms">
+                        	<div class="exl"></div>
+                            <div class="date-coms">2 февраля 2021</div>
+                        </div>
+                    </div> 
+                </div>
+            </div>
+            
+            <div id="faq" class="b-faq">
+                <div class="title"><span>Часто задаваемые вопросы</span></div>
+            
+                <div class="list-faq">
+                    <div class="item-faq">
+                        <div class="head-faq">Какие категории граждан могут быть признаны безработными?</div>
+                        <div class="body-faq">
+                            <p>В соответствии с Законом Российской Федерации «О занятости населения в Российской Федерации» и Порядком регистрации безработных граждан, утвержденным постановлением Правительства Российской Федерации от 07.09.2012 № 891, безработными признаются граждане, которые:<br>
+                            -трудоспособны;<br>
+                            -не имеют работы и заработка;<br>
+                            -зарегистрированы в целях поиска подходящей работы;<br>
+                            -ищут работу и готовы приступить к ней;<br>
+                            -не трудоустроены в течение 10 дней со дня их регистрации в целях поиска подходящей работы.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="item-faq">
+                        <div class="head-faq">Как встать на учет в качестве безработного?</div>
+                        <div class="body-faq">
+                            <p>В соответствии с Законом Российской Федерации «О занятости населения в Российской Федерации» и Порядком регистрации безработных граждан, утвержденным постановлением Правительства Российской Федерации от 07.09.2012 № 891, безработными признаются граждане, которые:<br>
+                            -трудоспособны;<br>
+                            -не имеют работы и заработка;<br>
+                            -зарегистрированы в целях поиска подходящей работы;<br>
+                            -ищут работу и готовы приступить к ней;<br>
+                            -не трудоустроены в течение 10 дней со дня их регистрации в целях поиска подходящей работы.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="item-faq">
+                        <div class="head-faq">Как начисляется и выплачивается пособие?</div>
+                        <div class="body-faq">
+                            <p>В соответствии с Законом Российской Федерации «О занятости населения в Российской Федерации» и Порядком регистрации безработных граждан, утвержденным постановлением Правительства Российской Федерации от 07.09.2012 № 891, безработными признаются граждане, которые:<br>
+                            -трудоспособны;<br>
+                            -не имеют работы и заработка;<br>
+                            -зарегистрированы в целях поиска подходящей работы;<br>
+                            -ищут работу и готовы приступить к ней;<br>
+                            -не трудоустроены в течение 10 дней со дня их регистрации в целях поиска подходящей работы.</p>
+                        </div>
+                    </div>
+                    
+                    <div class="item-faq">
+                        <div class="head-faq">Как проходит перерегистрация?</div>
+                        <div class="body-faq">
+                            <p>В соответствии с Законом Российской Федерации «О занятости населения в Российской Федерации» и Порядком регистрации безработных граждан, утвержденным постановлением Правительства Российской Федерации от 07.09.2012 № 891, безработными признаются граждане, которые:<br>
+                            -трудоспособны;<br>
+                            -не имеют работы и заработка;<br>
+                            -зарегистрированы в целях поиска подходящей работы;<br>
+                            -ищут работу и готовы приступить к ней;<br>
+                            -не трудоустроены в течение 10 дней со дня их регистрации в целях поиска подходящей работы.</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            
+            <div class="b-org">
+            	<div class="title"><span>Другие центры занятости</span></div>
+                
+                <div class="list-org">
+                    <div class="item-org">
+                        <div class="img-org"><img src="images_tmp/img-org3.jpg" alt="" /></div>
+                        <div class="desc-org">
+                            <div class="tit-org">ЦЗН Майкоп</div>
+                            <p>Филиал государственного казенного учреждения Республики Адыгея «Адыгейский республиканский центр занятости населения» в городе Адыгейске</p>
+                            <div class="adress-org">ул. Николоямская, д. 49, стр. 3.</div>
+                            <div class="phone-org"><a href="tel:8877292213">8(8772)9-22-13</a> (горячая линия); <a href="tel:8877292995">8(8772)9-29-95</a> (факс)</div>
+                            <div class="mail-org"><a href="mailto:dtiz-cao-czn@trud.mos.ru">dtiz-cao-czn@trud.mos.ru</a></div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+	</div><!--main-->
+	
+	<footer>
+		<div class="cont-f">
+			<div class="logo-f"><a href="/">Центры-занятости.рф</a></div>
+            
+            <div class="menu-f">
+            	<ul>
+                	<li><a href="#">Публикации</a></li>
+                	<li><a href="#">Центры занятости по регионам</a></li>
+                </ul>
+            	<ul>
+                	<li><a href="#">О сайте</a></li>
+                	<li><span>Правила сайта</span></li>
+                </ul>
+            	<ul>
+                	<li><a href="#">Бесплатные курсы</a></li>
+                	<li><a href="#">Поиск вакансий</a></li>
+                </ul>
+            </div>
+		</div>
+	</footer>
+</body>
+</html>

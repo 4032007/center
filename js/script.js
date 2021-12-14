@@ -1,14 +1,4 @@
 $(function() {
-	
-//main slider
-	$('.slider-mn').slick({
-	  dots: true,
-	  infinite: true,
-	  slidesToShow: 1,
-	  adaptiveHeight: true,
-	  fade: true
-	});
-	
 	$('.head-faq').click(function(){
 		$(this).next().toggle()
 	});
@@ -39,6 +29,20 @@ $(function() {
 	
 //select	
 	$('.sel-t select').niceSelect();
+	
+//menu
+	$('.but-menu').click(function(){
+		$(this).toggleClass('active');
+		$('.menu-top').toggle()
+		return false;
+	});
+	
+	$(document).click(function(event) {
+	    if ($(event.target).closest('header').length) return;
+	    $('.menu-top').hide();
+		$('.but-menu').removeClass('active');
+	    event.stopPropagation();
+	});	
 	
 //yandex map
 	ymaps.ready(function () {
